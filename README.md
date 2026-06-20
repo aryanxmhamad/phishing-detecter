@@ -122,11 +122,6 @@ http://127.0.0.1:5000
 
 This project is for educational purposes only. It is designed to demonstrate phishing detection techniques and should not be relied upon as the sole method of identifying malicious websites or emails.
 
----
-
-## Author
-
-**Your Name**
 
 GitHub: https://github.com/YourUsername
 
