@@ -59,7 +59,7 @@ phishing-detector/
 ├── static/
 │   └── index.html
 │
-├── requirements.txt
+|
 └── README.md
 ```
 
