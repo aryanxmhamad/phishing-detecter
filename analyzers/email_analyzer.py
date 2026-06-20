@@ -1,5 +1,5 @@
 import re
-
+import urllib.parse
 from config import SUSPICIOUS_KEYWORDS
 from analyzers.url_analyzer import analyze_url
 
