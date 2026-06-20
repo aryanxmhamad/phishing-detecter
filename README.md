@@ -63,9 +63,9 @@ phishing-detector/
 └── README.md
 |
 |____requirements.txt
-
-
-
+|
+|
+|_____vercel.json
 
 ```
 
