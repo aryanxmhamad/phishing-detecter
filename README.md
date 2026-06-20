@@ -1,7 +1,7 @@
 # 🛡️ Phishing Detector
 
 A simple web-based phishing detection tool built with **Python**, **Flask**, and **HTML**. It analyzes URLs, emails, and HTML code to identify common phishing indicators and provides a risk score with a verdict.
-
+and you can visit the web : https://phishing-detecter.vercel.app/
 ---
 
 ## Features
