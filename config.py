@@ -16,10 +16,60 @@ PHISHING_URL_PATTERNS = [
     r'[a-z0-9]{30,}',                                  # very long random string
 ]
 
-SUSPICIOUS_TLDS = ['.tk', '.ml', '.ga', '.cf', '.gq', '.pw', '.xyz', '.top', '.club', '.ru', '.cn', '.cc', '.ws']
-
+SUSPICIOUS_TLDS = [
+    '.tk', '.ml', '.ga', '.cf', '.gq',
+    '.pw', '.xyz', '.top', '.club',
+    '.ru', '.cn', '.cc', '.ws',
+    '.click', '.link', '.work',
+    '.live', '.cam', '.zip',
+    '.review', '.country', '.stream',
+    '.download', '.support', '.monster',
+    '.buzz', '.space', '.rest',
+    '.fit', '.quest', '.lol',
+    '.icu', '.shop'
+]
 LEGITIMATE_DOMAINS = [
-    'google.com', 'gmail.com', 'youtube.com', 'facebook.com', 'twitter.com',
-    'instagram.com', 'linkedin.com', 'github.com', 'microsoft.com', 'apple.com',
-    'amazon.com', 'paypal.com', 'netflix.com', 'reddit.com', 'wikipedia.org'
+
+    # Google
+    'google.com',
+    'gmail.com',
+    'youtube.com',
+    'googleusercontent.com',
+
+    # Microsoft
+    'microsoft.com',
+    'office.com',
+    'live.com',
+    'outlook.com',
+
+    # Apple
+    'apple.com',
+    'icloud.com',
+
+    # Amazon
+    'amazon.com',
+    'aws.amazon.com',
+
+    # Meta
+    'facebook.com',
+    'instagram.com',
+    'whatsapp.com',
+    'threads.net',
+
+    # Others
+    'paypal.com',
+    'github.com',
+    'gitlab.com',
+    'linkedin.com',
+    'reddit.com',
+    'netflix.com',
+    'dropbox.com',
+    'cloudflare.com',
+    'mozilla.org',
+    'wikipedia.org',
+    'stackoverflow.com',
+    'discord.com',
+    'zoom.us',
+    'adobe.com',
+    'openai.com'
 ]
